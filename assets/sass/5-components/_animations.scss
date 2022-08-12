@@ -1,0 +1,174 @@
+//Move 1 - e4
+.chessSquares-container:hover #e2 {
+  animation: e2-e4 1000ms ease-in forwards;
+}
+@keyframes e2-e4 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-160px);
+  }
+}
+//Move 2 - Nc6
+.chessSquares-container:hover #b8 {
+  animation: b8-c6 1000ms ease-in forwards;
+  animation-delay: 2000ms;
+}
+@keyframes b8-c6 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(160px);
+  }
+  100% {
+    transform: translate(80px, 160px);
+  }
+}
+//Move 3 - Bc4
+.chessSquares-container:hover #f1 {
+  animation: f1-c4 1000ms ease-in forwards;
+  animation-delay: 3000ms;
+}
+@keyframes f1-c4 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-240px, -240px);
+  }
+}
+//Move 4 - f6
+.chessSquares-container:hover #f7 {
+  animation: f7-f6 1000ms ease-in forwards;
+  animation-delay: 4000ms;
+}
+@keyframes f7-f6 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(80px);
+  }
+}
+//Move 5 - g3
+.chessSquares-container:hover #g2 {
+  animation: g2-g3 1000ms ease-in forwards;
+  animation-delay: 5000ms;
+}
+@keyframes g2-g3 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-80px);
+  }
+}
+//Move 6- g5
+.chessSquares-container:hover #g7 {
+  animation: g7-g5 1000ms ease-in forwards;
+  animation-delay: 6000ms;
+}
+@keyframes g7-g5 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(160px);
+  }
+}
+//Move 7 - Nc3
+.chessSquares-container:hover #b1 {
+  animation: b1-c3 1000ms ease-in forwards;
+  animation-delay: 7000ms;
+}
+@keyframes b1-c3 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-160px);
+  }
+  100% {
+    transform: translate(80px, -160px);
+  }
+}
+//Move 8 - b6
+.chessSquares-container:hover #b7 {
+  animation: b7-b6 1000ms ease-in forwards;
+  animation-delay: 8000ms;
+}
+@keyframes b7-b6 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(80px);
+  }
+}
+//Move 9 - d4
+.chessSquares-container:hover #d2 {
+  animation: d2-d4 1000ms ease-in forwards;
+  animation-delay: 9000ms;
+}
+@keyframes d2-d4 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-160px);
+  }
+}
+//Move 10 - Bb7
+.chessSquares-container:hover #c8 {
+  animation: c8-b7 1000ms ease-in forwards;
+  animation-delay: 10000ms;
+}
+@keyframes c8-b7 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-80px, 80px);
+  }
+}
+//Move 11 - a3
+.chessSquares-container:hover #a2 {
+  animation: a2-a3 1000ms ease-in forwards;
+  animation-delay: 11000ms;
+}
+@keyframes a2-a3 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-80px);
+  }
+}
+//Move 12 - a5
+.chessSquares-container:hover #a7 {
+  animation: a7-a5 1000ms ease-in forwards;
+  animation-delay: 12000ms;
+}
+@keyframes a7-a5 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(160px);
+  }
+}
+//Move 13 - Qh5#
+.chessSquares-container:hover #d1 {
+  animation: d1-h5 1000ms ease-in forwards;
+  animation-delay: 13000ms;
+}
+@keyframes d1-h5 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(320px, -320px);
+  }
+}
